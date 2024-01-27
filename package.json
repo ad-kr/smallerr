@@ -1,0 +1,20 @@
+{
+    "name": "smallerr",
+    "version": "0.0.1",
+    "description": "A small utility for easier error handling in Typescript.",
+    "files": [
+        "dist"
+    ],
+    "main": "dist/index.ts",
+    "scripts": {
+        "build": "tsup src/index.ts --dts --minify"
+    },
+    "dependencies": {
+        "typescript": "^5.3.3"
+    },
+    "author": "ad-kr",
+    "license": "ISC",
+    "devDependencies": {
+        "tsup": "^8.0.1"
+    }
+}
