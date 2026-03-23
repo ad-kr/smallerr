@@ -1,13 +1,19 @@
 {
     "name": "smallerr",
-    "version": "0.0.1",
+    "version": "0.0.3",
+    "type": "module",
     "description": "A small utility for easier error handling in Typescript.",
     "files": [
         "dist"
     ],
-    "main": "dist/index.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        }
+    },
     "scripts": {
-        "build": "tsup src/index.ts --dts --minify"
+        "build": "tsup src/index.ts --format esm --dts --clean --minify"
     },
     "dependencies": {
         "typescript": "5.9.2"

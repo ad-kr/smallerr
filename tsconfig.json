@@ -2,11 +2,11 @@
 	"compilerOptions": {
 		"module": "nodenext",
 		"target": "esnext",
+		"outDir": "dist",
+		"rootDir": "src",
 		"types": [],
 		"lib": ["esnext"],
-		"sourceMap": true,
 		"declaration": true,
-		"declarationMap": true,
 		"noUncheckedIndexedAccess": true,
 		"exactOptionalPropertyTypes": true,
 		"strict": true,
@@ -14,5 +14,6 @@
 		"noUncheckedSideEffectImports": true,
 		"moduleDetection": "force",
 		"skipLibCheck": true
-	}
+	},
+	"include": ["src"]
 }
