@@ -10,11 +10,11 @@
         "build": "tsup src/index.ts --dts --minify"
     },
     "dependencies": {
-        "typescript": "^6.0.2"
+        "typescript": "5.9.2"
     },
     "author": "ad-kr",
     "license": "ISC",
     "devDependencies": {
-        "tsup": "^8.5.1"
+        "tsup": "8.5.1"
     }
 }
